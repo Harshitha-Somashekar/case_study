@@ -1,0 +1,5 @@
+wordsStr=input("Enter sequence of words using space as delimiter:")
+wordsList= wordsStr.split()
+print("Before sorting :" + str(wordsList))
+wordsList.sort()
+print("After sorting :" + str(wordsList))
