@@ -31,13 +31,13 @@
 -  3. At least 1 character from [$#@] 
 -  4. Minimum length of transaction password: 6
 -  5. Maximum length of transaction password: 12
-  ##### .py #####
-#### Hint: In case of input data being suppliedto the question, it should be assumed to be a console input.####
-#### 4.Write a for loop that prints all elements of a list and their position in the list.####
+#### Hint: In case of input data being supplied to the question, it should be assumed to be a console input. ####
+  ##### PasswordCheck.py #####
+### 4.Write a for loop that prints all elements of a list and their position in the list. ###
 #### a = [4,7,3,2,5,9] 
 #### Hint: Use Loop to iterate through list elements.
   ##### .py #####
-#### 5.Please   write   a   program   which accepts  a   string   from   console   and   print   the characters that have even indexes.####
+#### 5.Please write a program which accepts a string from console and print the characters that have even indexes. ####
 #### Example: If the following string is given as input to the program:H1e2l3l4o5w6o7r8l9d
 #### Then, the output of the program should be:Helloworld
   ##### .py #####
