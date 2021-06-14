@@ -13,17 +13,17 @@
   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # unit2_case_study1
- ####  1.What is the output of the following code? ####
+ ###  1.What is the output of the following code? ###
  #### nums =set([1,1,2,3,3,3,4,4]) ####
  #### print(len(nums)) ####
  #### Hint:Set consists unique element ####
   ##### Ans : 4 #####
- #### 2.What will be the output? ####
+ ### 2.What will be the output? ###
  #### d ={"john":40, "peter":45} ####
  #### print(list(d.keys())) ####
  #### Hint:d.keys()isthefunctionwhichwillshowkeys. ####
   ##### Ans : ['john', 'peter'] #####
-#### 3.A website requires a user to input username and password to register. Write a program to check the validity of password given by user. ####
+### 3.A website requires a user to input username and password to register. Write a program to check the validity of password given by user. ###
 #### Following are the criteria for checking password: ####
 -  1. At least 1 letter between [a-z] 
 -  2. At least 1 number between [0-9]
