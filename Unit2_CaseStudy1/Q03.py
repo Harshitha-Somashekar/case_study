@@ -12,19 +12,19 @@ while retry:
         print("Password length is less than 6 characters. Retry..........!!!")
         retry = True
         continue
-    if (len(set(password).intersection(set(['$','#','@'])))) <= 0:
+    if (set(password).intersection(set(['$','#','@']))) == set():
         print("Password must include one special character $, #, @. Retry..........!!!")
         retry = True
         continue
-    if (len(set(password).intersection(set(list(string.ascii_lowercase))))) <= 0:
+    if (set(password).intersection(set(list(string.ascii_lowercase)))) == set():
         print("Password must include one lower case character. Retry..........!!!")
         retry = True
         continue
-    if (len(set(password).intersection(set(list(string.ascii_uppercase))))) <= 0:
+    if (set(password).intersection(set(list(string.ascii_uppercase)))) == set():
         print("Password must include one upper case character. Retry..........!!!")
         retry = True
         continue
-    if (len(set(password).intersection(set(list(string.digits))))) <= 0:
+    if (set(password).intersection(set(list(string.digits)))) == set():
         print("Password must include one digit. Retry..........!!!")
         retry = True
         continue
